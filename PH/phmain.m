@@ -66,7 +66,7 @@ ph = struct( ...
  
 ph = phParameter(ph,line,MaxSmoothError);
 
-ph = phTransLation(ph,line);
+ph = phTransitionLength(ph,line);
 
 ph = phCtrolPoint(ph,line);
 
