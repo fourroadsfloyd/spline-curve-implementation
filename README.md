@@ -11,7 +11,7 @@ outpoint_Bspline: An analytical and optimal corner smoothing method for CNC mach
 
 PH：面向五轴加工轨迹的曲率连续光顺及其插补方法研究 石璟 上海交通大学
 
-使用向量叉乘可以解决空间向量指向问题
+使用向量叉乘可以解决空间向量指向问题，右手法则
 
 **代码实现向量e3，e4时，先使用向量叉积法判断，e3-》e4是顺时针还是逆时针。接着使用旋转矩阵，由e1旋转计算e3，e2旋转计算e4**   
                   
