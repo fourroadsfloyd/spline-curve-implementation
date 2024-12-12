@@ -9,7 +9,9 @@ Bezier: 微小线段高速加工的轨迹优化建模及前瞻插补技术研究
 
 outpoint_Bspline: An analytical and optimal corner smoothing method for CNC machine tools along linear segments 李博 天津大学
 
-三维空间，无法使用矩阵旋转法，因为不知道在空间中应该绕着哪里旋转
+PH：面向五轴加工轨迹的曲率连续光顺及其插补方法研究 石璟 上海交通大学
+
+使用向量叉乘可以解决空间向量指向问题
 
 **代码实现向量e3，e4时，先使用向量叉积法判断，e3-》e4是顺时针还是逆时针。接着使用旋转矩阵，由e1旋转计算e3，e2旋转计算e4**   
                   
